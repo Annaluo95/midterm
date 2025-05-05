@@ -2,10 +2,19 @@
     box-sizing: border-box;
     margin: 10px;
     padding: 0px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,body,.page{
+    height:auto;
+    min-height: 100vh;
 }
 
 div.container{
-    border: 5px; color-scheme: red;
     width: 90%;
     margin: 0 auto;
 }
@@ -32,7 +41,6 @@ aside{
 
 nav{
     background-color: powderblue;
-    
 }
 
 ul{
@@ -49,8 +57,15 @@ li{
     font-variant: normal;
 }
 
-a{
+li a{
     color: blue;
-    text-decoration-color: firebrick;
     display: block;
+}
+
+footer{
+    color: darksalmon;
+    background: fixed;
+    padding: 3px;
+    text-align: center;
+    text-decoration: dashed;
 }
