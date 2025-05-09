@@ -1,3 +1,5 @@
+
+
 *{
     box-sizing: border-box;
     margin: 10px;
@@ -22,44 +24,53 @@ div.container{
 header{
     background-color: pink;
     text-align: center;
+    font-size:xx-large;   
 }
 
-div.left, div.middle, div.right{
-    border: 3px dotted yellow
-    width 20%
-    margin-right 2%;
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+    justify-items: center;
 }
 
-aside img{
+.gallery img{
     width: 100%;
-}
-
-aside{
-    display: flex;
-    justify-content: space-between;
+    max-width: 300px;
+    height: auto;
 }
 
 nav{
     background-color: powderblue;
+    
 }
 
 ul{
     text-align: center;
-    text-decoration: dotted;
+    display: flex;
+    justify-content:center;
 }
 
 li{
-    display: inline-block;
-    width: 110px;
-    border:5px solid white;
+    width: 16%;
+    list-style-type: none;
+    border: 5px solid white;
     line-height: 3em;
     font-family: 'Times New Roman', Times, serif;
     font-variant: normal;
+    text-decoration: none;
 }
 
+    
+
 li a{
-    color: blue;
+    color:black;
+    text-transform: uppercase;
     display: block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    text-decoration: none;
+
 }
 
 footer{
